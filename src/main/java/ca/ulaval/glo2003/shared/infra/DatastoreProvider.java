@@ -7,6 +7,6 @@ import dev.morphia.Morphia;
 public class DatastoreProvider {
     public Datastore provide() {
         var mongoUrl = "mongodb://root:example@localhost:27017";
-        return Morphia.createDatastore(MongoClients.create(mongoUrl), "restalo");
+        return Morphia.createDatastore(MongoClients.create(mongoUrl), "labo9");
     }
 }
